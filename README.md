@@ -6,6 +6,17 @@ Memprediksi jenis kelamin dari nama bahasa Indonesia menggunakan Machine Learnin
 
 Data set yang digunakan berasal dari data pemilih tetap Komisi Pemilihan Umum (KPU) yang bisa didapat [disini](https://pilkada2017.kpu.go.id/pemilih/dps/DKI%20JAKARTA). Saya telah menyiapkan data set yang telah di scrape dalam bentuk csv, terdiri dari 2 kolom, nama dan jenis kelamin [disini](./data/data-pemilih-kpu.csv).
 
+Tampilan dataset, teridiri dari 13.137 nama
+
+| Nama | Jenis Kelamin |
+|------|---------------|
+|ERWIN TJAHJONO|Laki-Laki|
+|DAVIANDRIE ANDIKA BAHROENY|Laki-Laki|
+|ELAN KURNIAWAN|Laki-Laki|
+|AYU DWI CAHYANING MUKTI|Perempuan|
+|SITA.HJ|Perempuan|
+
+
 Metode klasifikasi yang digunakan adalah Logistic Regression, Naive Bayes dan Random Forest Tree dengan bantuan library Python [Scikit Learn](http://scikit-learn.org).  
 
 ### Menjalankan program
