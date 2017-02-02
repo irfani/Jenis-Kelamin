@@ -1,6 +1,5 @@
 # Jenis Kelamin
 
-![Visualisasi](visualize.png)
 
 Memprediksi jenis kelamin dari nama bahasa Indonesia menggunakan Machine Learning.
 
